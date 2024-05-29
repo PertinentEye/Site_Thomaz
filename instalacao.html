@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalação - Aprenda R do Zero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Instalação do R</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="conceitos.html">Conceitos Essenciais</a></li>
+                    <li><a href="programas.html">Criação de Programas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <h2>Passo a Passo para Instalar o R</h2>
+                <p>Siga os passos abaixo para instalar o R no seu computador:</p>
+
+                <h3>Windows</h3>
+                <ol>
+                    <li>Acesse o site oficial do R: <a href="https://cran.r-project.org" target="_blank">CRAN</a>.</li>
+                    <li>Na página inicial do CRAN, clique em "Download R for Windows".</li>
+                    <li>Clique em "base" para baixar a versão básica do R.</li>
+                    <li>Clique no link "Download R x.x.x for Windows" (onde "x.x.x" é o número da versão mais recente).</li>
+                    <li>Depois de baixar o arquivo, clique duas vezes no instalador para executá-lo.</li>
+                    <li>Siga as instruções do assistente de instalação, aceitando os termos de uso e escolhendo as configurações padrão.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Acesse <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>Baixe o instalador do RStudio para Windows.</li>
+                            <li>Execute o instalador e siga as instruções para concluir a instalação.</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio e verifique se o R está funcionando corretamente.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>macOS</h3>
+                <ol>
+                    <li>Acesse o site oficial do R: <a href="https://cran.r-project.org" target="_blank">CRAN</a>.</li>
+                    <li>Na página inicial do CRAN, clique em "Download R for macOS".</li>
+                    <li>Escolha a versão adequada do instalador para seu sistema macOS (geralmente o mais recente listado).</li>
+                    <li>Depois de baixar o arquivo .pkg, clique duas vezes nele para abrir o instalador.</li>
+                    <li>Siga as instruções do assistente de instalação, aceitando os termos de uso e escolhendo as configurações padrão.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Acesse <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>Baixe o instalador do RStudio para macOS.</li>
+                            <li>Abra o arquivo .dmg e arraste o ícone do RStudio para a pasta "Aplicativos".</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio e verifique se o R está funcionando corretamente.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <h3>Linux (Ubuntu)</h3>
+                <ol>
+                    <li>Abra o terminal.</li>
+                    <li>Digite o comando <code>sudo apt update</code> e pressione Enter.</li>
+                    <li>No terminal, digite <code>sudo apt install r-base</code> e pressione Enter.</li>
+                    <li>Siga as instruções e confirme a instalação quando solicitado.</li>
+                    <li>Para um ambiente de desenvolvimento mais amigável, recomendamos instalar o RStudio:
+                        <ul>
+                            <li>Baixe o pacote DEB do RStudio a partir de <a href="https://rstudio.com/products/rstudio/download/" target="_blank">RStudio</a>.</li>
+                            <li>No terminal, navegue até o diretório onde o pacote foi baixado (usando <code>cd /path/to/directory</code>).</li>
+                            <li>Digite <code>sudo dpkg -i rstudio-x.x.x-amd64.deb</code> (substitua "x.x.x" pela versão do pacote baixado) e pressione Enter.</li>
+                            <li>Se houver dependências não resolvidas, digite <code>sudo apt install -f</code> e pressione Enter para corrigir.</li>
+                        </ul>
+                    </li>
+                    <li>Abra o R ou o RStudio e verifique se o R está funcionando corretamente.
+                        <ul>
+                            <li>No console do R, digite <code>version</code> e pressione Enter para verificar a versão instalada.</li>
+                        </ul>
+                    </li>
+                </ol>
+
+                <p>Após concluir esses passos, você estará pronto para começar a programar em R.</p>
+            </div>
+        </section>
+        <section class="video-tutorial">
+            <h2>Tutorial em Vídeo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SeuLinkDoVideoAqui" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
